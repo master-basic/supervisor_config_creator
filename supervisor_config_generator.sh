@@ -44,7 +44,7 @@ EOF
     
     echo "$config_content" > "$config_filename"
 
-    echo "Supervisor config file '${config_filename}' created successfully."
+    echo "Supervisor config file '${config_filename}' created successfully in /etc/supervisord.d/."
 }
 
 create_supervisor_config

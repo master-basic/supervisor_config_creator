@@ -41,7 +41,7 @@ stdout_logfile_backups=30
     with open(config_filename, 'w') as config_file:
         config_file.write(config_content)
 
-    print(f"Supervisor config file '{config_filename}' created successfully.")
+    print(f"Supervisor config file '{config_filename}' created successfully in /etc/supervisord.d/.")
 
 if __name__ == "__main__":
     create_supervisor_config()
